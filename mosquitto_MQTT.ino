@@ -1,13 +1,12 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "d3v45";
-const char* password = "12345678";
-const char* mqtt_server = "192.168.79.194"; // Replace with your MQTT broker IP address
+const char* ssid = "Enter WiFi ssid";
+const char* password = "Enter password";
+const char* mqtt_server = ""; // Replace with your MQTT broker IP address
 const int mqtt_port = 1883;
-const char* subscribe_topic = "led/control";
-const char* publish_topic = "led/status";
-const int led_pin = 2;  // GPIO pin connected to the LED
+const char* subscribe_topic = "enter topic";
+const char* publish_topic = "enter topic";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
