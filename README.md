@@ -14,3 +14,7 @@ and then you can either publish or subscribe to topics.
 In order to publish, you can use the following command:
 ```mosquitto_pub -h Your_Laptop's_IP -t topic_name -m "enter message here"```
 that's the steps you need to follow in order to publish a message through mosquitto.
+
+# Example code
+
+you can try the example code [here.](/mosquitto_MQTT.ino)
